@@ -1,34 +1,56 @@
-Dynamic Programming Exercises
-This repository contains several classical problems solved using dynamic programming in both top-down (recursive with memoization) and bottom-up (iterative/tabulation) approaches. Each solution measures and compares execution time.
+# Dynamic Programming Solutions
 
-1. Fibonacci Numbers
-Input: Integer n (0 ≤ n ≤ 90)
+## 1. Fibonacci Number
 
-Approach: Top-down with memoization and bottom-up iteration.
+### Description
+Calculate the nth Fibonacci number.
 
-Comparison: Recursive is cleaner, but iterative is generally faster for large n.
+### Approaches
+- Top-down recursion with memoization
+- Bottom-up tabulation
 
-2. Factorial Calculation
-Input: Integer n (0 ≤ n ≤ 20)
+### Performance
+Measured and compared execution times.
 
-Approach: Recursive with memoization and iterative loop.
+## 2. Factorial Calculation
 
-Comparison: Both approaches perform similarly at this scale.
+### Description
+Calculate n! (factorial of n).
 
-3. Climbing Stairs
-Input: Integer n (1 ≤ n ≤ 45)
+### Approaches
+- Recursive with memoization
+- Iterative loop
 
-Goal: Count the number of distinct ways to climb stairs (1 or 2 steps at a time).
+### Performance
+Measured execution times for both.
 
-Approach: Top-down and bottom-up.
+## 3. Climbing Stairs Problem
 
-Comparison: Iterative is faster and uses less memory.
+### Description
+Count the number of ways to climb a staircase of n steps (1 or 2 steps at a time).
 
-4. Grid Unique Paths
-Input: Integers m, n (1 ≤ m, n ≤ 100)
+### Approaches
+- Top-down dynamic programming
+- Bottom-up dynamic programming
 
-Goal: Count the number of unique paths in an m x n grid from top-left to bottom-right, moving only right or down.
+### Performance
+Execution time compared.
 
-Approach: Bottom-up 2D dynamic programming.
+## 4. Unique Paths in Grid
 
-Comparison: Scales well even for large grids.
+### Description
+Given an m × n grid, count the number of unique paths from the top-left corner to the bottom-right corner, moving only right or down.
+
+### Approach
+Bottom-up dynamic programming using a 2D array.
+
+### Performance
+Execution time measured.
+
+## How to Run
+
+Compile each program with a C++17 compatible compiler and run from the terminal. Inputs are taken from standard input.
+
+## License
+
+This repository is free to use and modify.
