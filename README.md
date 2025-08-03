@@ -47,10 +47,4 @@ Bottom-up dynamic programming using a 2D array.
 ### Performance
 Execution time measured.
 
-## How to Run
 
-Compile each program with a C++17 compatible compiler and run from the terminal. Inputs are taken from standard input.
-
-## License
-
-This repository is free to use and modify.
